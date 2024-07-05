@@ -9,7 +9,7 @@
   <body>
     <main id="main">
       <div id="profile">
-        <img src="me_small.jpg" alt="My pic" />
+        <img src="me_small.jpg" alt="My pic" data-testid="slackProfilePicture" />
 
         <div>
           <div id="intro-div">
@@ -28,8 +28,8 @@
           </div>
 
           <div id="datetime">
-            <div id="current-time"></div>
-            <div id="current-day"></div>
+            <div id="current-time" data-testid="currentTimeUTC"></div>
+            <div id="current-day" data-testid="currentDay"></div>
           </div>
         </div>
       </div>
